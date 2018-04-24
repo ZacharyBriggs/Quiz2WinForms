@@ -1,0 +1,11 @@
+c:\users\s178020\documents\visual studio 2015\Projects\Quiz2WinForms\Quiz2WinForms\bin\Debug\Quiz2WinForms.exe.config
+c:\users\s178020\documents\visual studio 2015\Projects\Quiz2WinForms\Quiz2WinForms\bin\Debug\Quiz2WinForms.exe
+c:\users\s178020\documents\visual studio 2015\Projects\Quiz2WinForms\Quiz2WinForms\bin\Debug\Quiz2WinForms.pdb
+c:\users\s178020\documents\visual studio 2015\Projects\Quiz2WinForms\Quiz2WinForms\obj\Debug\Quiz2WinForms.csprojResolveAssemblyReference.cache
+c:\users\s178020\documents\visual studio 2015\Projects\Quiz2WinForms\Quiz2WinForms\obj\Debug\Quiz2WinForms.Form1.resources
+c:\users\s178020\documents\visual studio 2015\Projects\Quiz2WinForms\Quiz2WinForms\obj\Debug\Quiz2WinForms.Properties.Resources.resources
+c:\users\s178020\documents\visual studio 2015\Projects\Quiz2WinForms\Quiz2WinForms\obj\Debug\Quiz2WinForms.csproj.GenerateResource.Cache
+c:\users\s178020\documents\visual studio 2015\Projects\Quiz2WinForms\Quiz2WinForms\obj\Debug\Quiz2WinForms.exe
+c:\users\s178020\documents\visual studio 2015\Projects\Quiz2WinForms\Quiz2WinForms\obj\Debug\Quiz2WinForms.pdb
+c:\users\s178020\documents\visual studio 2015\Projects\Quiz2WinForms\Quiz2WinForms\bin\Debug\Newtonsoft.Json.dll
+c:\users\s178020\documents\visual studio 2015\Projects\Quiz2WinForms\Quiz2WinForms\bin\Debug\Newtonsoft.Json.xml
