@@ -20,9 +20,21 @@ namespace Quiz2WinForms
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-            player = new Player();
+            var path = System.IO.Path.Combine(Environment.CurrentDirectory, "player.json");
             progressBar1.Minimum = 0;
             progressBar1.Maximum = 1000;
+            if (System.IO.File.Exists(path)
+            )
+            {
+                var data = File.ReadAllText(path);
+                player = JsonConvert.DeserializeObject<Player>(data);
+                textBox1.Text = "Level " + player.Level + " Exp " + player.Experience + "/1000";
+                progressBar1.Value = player.Experience;
+            }
+            else
+            {
+                player = new Player();
+            }
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -34,8 +46,7 @@ namespace Quiz2WinForms
                 player.Experience = 0;
                 progressBar1.Value = 0;
             }
-            textBox1.Text = "";
-            textBox1.Text += "Level " + player.Level + " Exp " + player.Experience + "/1000";
+            textBox1.Text = "Level " + player.Level + " Exp " + player.Experience + "/1000";
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
